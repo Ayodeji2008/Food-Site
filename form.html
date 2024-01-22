@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        background-color: rgb(64, 64, 139);
+        background-color: royalblue;
+      }
+      .pic-text {
+        background-color: rgb(89, 89, 167);
+        font-size: 20px;
+        padding: 10px 10px;
+        height: 350px;
+        width: 300px;
+        border: 1px solid rgb(89, 89, 167);
+        margin: 80px auto;
+        border-radius: 6px;
+      }
+      h2 {
+        color: #fff;
+        text-align: center;
+      }
+      .form {
+        padding: 10px 0px;
+      }
+      label {
+        font-size: 17px;
+        color: #fff;
+      }
+      input{
+        width: 100%;
+        margin: 10px 0px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid skyblue;
+        outline: none;
+      }
+      button{
+        width: 100%;
+        background-color: skyblue;
+        color: black;
+        text-align: center;
+        padding: 10px 0px;
+        border: none;
+        border-radius: 7px;
+        font-size: 18px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+      p{
+        font-size: 16px;
+        color: white;
+        padding: 0px 10px;
+      }
+      a{
+        text-decoration: none;
+        color: skyblue;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pic-text">
+      <div><h2>Please Login</h2></div>
+      <form action="">
+        <div class="form">
+          <label for="email">Email</label><br />
+          <input type="email" /><br />
+        </div>
+        <div class="form">
+          <label for="password">Password</label><br />
+          <input type="password" />
+        </div>
+        <div>
+            <button>Login</button>
+        </div>
+        <div><p>Don't have an account? <a href="">Register</a></p></div>
+      </form>
+    </div>
+  </body>
+</html>

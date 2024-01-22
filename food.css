@@ -1,0 +1,83 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.Parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #f7f7f7;
+}
+.Attire {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 10px;
+}
+.parent ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  list-style: none;
+}
+.parent ul li {
+  padding: 0px 20px;
+}
+.parent li a {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+.icon {
+  display: flex;
+
+  gap: 10px;
+  color: gray;
+}
+#about-section {
+  width: 100%;
+  margin: 20px auto;
+}
+.grid-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1200px;
+  margin: 0px auto;
+  
+}
+.bold-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+  top: 5rem;
+  height: 200px;
+}
+.bold-text h1 {
+  font-size: 40px;
+  font-family: Helvetica, sans-serif;
+}
+
+.grid-cont p {
+  font-size: 15px;
+  line-height: 30px;
+  color: #333;
+}
+.grid-cont img {
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: orange;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
